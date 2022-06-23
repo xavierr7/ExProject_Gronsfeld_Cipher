@@ -1,0 +1,3 @@
+﻿  ExamProject_GronsfeldСipher.cpp
+D:\all-projects\academic-projects\local\cpp-projects\Exams\ExamProject_GronsfeldСipher\ExamProject_GronsfeldСipher\ExamProject_GronsfeldСipher.cpp(177,29): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  ExamProject_GronsfeldСipher.vcxproj -> D:\all-projects\academic-projects\local\cpp-projects\Exams\ExamProject_GronsfeldСipher\x64\Debug\ExamProject_GronsfeldСipher.exe
