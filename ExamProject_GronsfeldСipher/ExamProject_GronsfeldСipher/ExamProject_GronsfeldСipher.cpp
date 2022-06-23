@@ -1,3 +1,6 @@
+//  Экзаменационная работа "Шифр Гронсфельда"
+//  Выполнил Артём Миллер
+//  06/23/2022
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -10,10 +13,33 @@ using std::cin;
 using std::endl;
 
 string alphabet;
-
+/// <summary>
+/// Функция для шифрования текста
+/// </summary>
+/// <param name="">константная ссылка на строку(текст/сообщение которое нужно зашифровать)</param>
+/// <param name="">константная ссылка на строку-ключ для шифровки</param>
+/// <returns>возвращает зашифрованный текст</returns>
 string encryption(const string&, const string&);
+
+/// <summary>
+/// Функция для дешифрования текста
+/// </summary>
+/// <param name="">константная ссылка на строку(текст/сообщение которое нужно расшифровать)</param>
+/// <param name="">константная ссылка на строку-ключ для дешифровки</param>
+/// <returns>возвращает расшифрованный текст</returns>
 string decryption(const string&, const string&);
+
+/// <summary>
+/// функция для создания собственного алфавита со всеми символами(спецсимволы, цифры, латиница, кириллица)
+/// </summary>
+/// <returns>возвращает строку хранящую в себе алфавит</returns>
 string MakeAlphabet();
+
+/// <summary>
+/// функция для проверки на то корректный ли ввёл ключ пользователь
+/// </summary>
+/// <param name="str">ссылка на строку-ключ</param>
+/// <returns>взовращает ложь если ключ некорректный и правду если корректный</returns>
 bool CheckNum(string& str);
 
 int main()
